@@ -41,7 +41,7 @@ defmodule Pharams.MixProject do
     [
       {:phoenix, ">= 1.3.0"},
       {:plug, "~> 1.6"},
-      {:ecto, "~> 2.0"},
+      {:ecto, ">= 2.0"},
       {:ex_doc, "~> 0.17", only: :dev, runtime: false}
     ]
   end
